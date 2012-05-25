@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F17ECE79-0623-4935-AA20-FA2CD0CB3B54}"
+	ProjectSection(SolutionItems) = preProject
+		CaixaEletronico.vsmdi = CaixaEletronico.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DojoCaixaEletronico.Core", "DojoCaixaEletronico.Core\DojoCaixaEletronico.Core.csproj", "{EEED0784-5C37-495B-98FE-C62DD5769852}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DojoCaixaEletronico.CoreTests", "DojoCaixaEletronico.CoreTests\DojoCaixaEletronico.CoreTests.csproj", "{11030158-3F7E-4CC5-9D2D-90BF2C93C7AB}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = CaixaEletronico.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EEED0784-5C37-495B-98FE-C62DD5769852}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEED0784-5C37-495B-98FE-C62DD5769852}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEED0784-5C37-495B-98FE-C62DD5769852}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEED0784-5C37-495B-98FE-C62DD5769852}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11030158-3F7E-4CC5-9D2D-90BF2C93C7AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11030158-3F7E-4CC5-9D2D-90BF2C93C7AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11030158-3F7E-4CC5-9D2D-90BF2C93C7AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11030158-3F7E-4CC5-9D2D-90BF2C93C7AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
